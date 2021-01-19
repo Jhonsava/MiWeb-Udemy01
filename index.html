@@ -15,19 +15,19 @@
             <nav class="header-menu">
                 <ul class="header-menu-wrapper">
                     <li class="header-menu-item">
-                        <a href="#" class="header-menu-link">SOBRE MI</a>
+                        <a href="#aboutme" class="header-menu-link">SOBRE MI</a>
                     </li>
 
                     <li class="header-menu-item">
-                        <a href="#" class="header-menu-link">HABILIDADES</a>
+                        <a href="#skills" class="header-menu-link">HABILIDADES</a>
                     </li>
 
                     <li class="header-menu-item">
-                        <a href="#" class="header-menu-link">PORTAFOLIO</a>
+                        <a href="#works" class="header-menu-link">PORTAFOLIO</a>
                     </li>
 
                     <li class="header-menu-item">
-                        <a href="#" class="header-menu-link">CONTACTO</a>
+                        <a href="#contact" class="header-menu-link">CONTACTO</a>
                     </li>
                 </ul>
             </nav>
@@ -63,19 +63,19 @@
         </div>
     </section>
     <!-- Esta es la sección de Habilidades -->
-    <section class="skills">
+    <section id="skills" class="skills">
         <header>
             <h1 class="title-underline">
                 <span>HABILIDADES</span>
             </h1>
         </header>
-        <ul class="skill-wrapper">
-            <li class="skill-item">
-                <div class="skill-text">
-                    <span class="skill-name">
+        <ul class="skills-wrapper">
+            <li class="skills-item">
+                <div class="skills-text">
+                    <span class="skills-name">
                         HTML
                     </span>
-                    <span class="skill-score">
+                    <span class="skills-score">
                         85%
                     </span>
                 </div>
@@ -85,12 +85,12 @@
                 </div>
             </li>
 
-            <li class="skill-item">
-                <div class="skill-text">
-                    <span class="skill-name">
+            <li class="skills-item">
+                <div class="skills-text">
+                    <span class="skills-name">
                         CSS3
                     </span>
-                    <span class="skill-score">
+                    <span class="skills-score">
                         70%
                     </span>
                 </div>
@@ -117,7 +117,7 @@
         </ul>
     </section>
     <!-- Esta es la sección para mis trabajos realizados-->
-    <section class="works">
+    <section id="works" class="works">
         <header>
             <h1 class="title-underline">
                 <span>PORTAFOLIO</span>
@@ -130,7 +130,22 @@
                 </div>
                 <div class="works-item-description">
                     <header>
-                        <h1 class="work-item-title">Desarrollo web 1</h1>
+                        <h1 class="works-item-title">Desarrollo web 1</h1>
+                    </header>
+                    <p class="works-item-client">Para <a href="https://www.google.com" target="_blank">Nuestro Cliente</a></p>
+                    <div class="text-center">
+                        <a href="https://www.google.com" class="btn-blue" target="_blank">Visitar web</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="works-item">
+                <div class="works-item-img-container">
+                    <img src="img/work.PNG" alt="Trabajo desarrollo web 1" class="works-item-img">
+                </div>
+                <div class="works-item-description">
+                    <header>
+                        <h1 class="works-item-title">Desarrollo web 2</h1>
                     </header>
                     <p class="work-item-client">Para <a href="https://www.google.com" target="_blank">Nuestro Cliente</a></p>
                     <div class="text-center">
@@ -145,24 +160,9 @@
                 </div>
                 <div class="works-item-description">
                     <header>
-                        <h1 class="work-item-title">Desarrollo web 2</h1>
+                        <h1 class="works-item-title">Desarrollo web 3</h1>
                     </header>
-                    <p class="work-item-client">Para <a href="https://www.google.com" target="_blank">Nuestro Cliente</a></p>
-                    <div class="text-center">
-                        <a href="https://www.google.com" class="btn-blue" target="_blank">Visitar web</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="works-item">
-                <div class="works-item-img-container">
-                    <img src="img/work.PNG" alt="Trabajo desarrollo web 1" class="works-item-img">
-                </div>
-                <div class="works-item-description">
-                    <header>
-                        <h1 class="work-item-title">Desarrollo web 3</h1>
-                    </header>
-                    <p class="work-item-client">Para <a href="https://www.google.com" target="_blank">Nuestro Cliente</a></p>
+                    <p class="works-item-client">Para <a href="https://www.google.com" target="_blank">Nuestro Cliente</a></p>
                     <div class="text-center">
                         <a href="https://www.google.com" class="btn-blue" target="_blank">Visitar web</a>
                     </div>
@@ -171,13 +171,13 @@
         </div>
     </section>
     <!-- Esta es la sección de contacto -->
-    <section class="contact">
+    <section id="contact" class="contact">
         <header>
             <h1 class="title-underline">
                 <span>Contactame</span>
             </h1>
         </header>
-        <form action="" class="contac-form">
+        <form action="" class="contact-form">
             <div class="contact-row">
                 <div class="contact-column left">
                     <div>
