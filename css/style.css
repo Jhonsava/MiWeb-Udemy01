@@ -132,17 +132,55 @@ body{
 }
 
 .btn-blue{
-    display: inline-block;
-    color: #46cbfd;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-decoration: none;
-    border: 3px solid #46cbfd;
-    padding: 10px 15px;
-    transition: background-color 0.3s, color 0.3s;
+    background: transparent;
+	display: inline-block;
+	color: #46cbfd;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	border: 3px solid #46cbfd;
+	padding: 10px 15px;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 .btn-blue:hover{
     background-color: #46cbfd;
     color: #ffffff;
 }
+
+.skills-wrapper{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+.skills-text{
+    text-transform: uppercase;
+    color: #606060;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.skills-name{
+    float: left;
+}
+
+.skills-score{
+    float: right;
+}
+
+.skills-bar{
+    width: 100%;
+    height: 30px;
+    background: #9e9e9e;
+}
+
+.skills-bar-fulling{
+    background-color: #765bf6;
+    height: 30px;
+    display: inline-block;
+}
+
